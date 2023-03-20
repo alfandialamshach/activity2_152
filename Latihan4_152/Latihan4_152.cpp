@@ -35,7 +35,21 @@ int main()
 				cin >> lebar;
 				cout << "Luas Persegi Panjang = " << LuasPersegi(panjang, lebar);
 				break;
-
+			case 2:
+				cout << "Masukan jari - jari = ";
+				cin >> jejari;
+				cout << "Luas Lingkaran =  <<" << Luaslingkaran(jejari);
+				break
+			case 3:
+				cout << "Masukan Alas = ";
+				cin >> alas;
+				cout << "Masukan Tinggi = ";
+				cin >> tinggi;
+				cout << "Luas Segitiga = " << LuasSegitiga(alas, tinggi);
+			case 4:
+				break;
+			default:
+				cout << "PILIHAN SALAH" << endl;
 		}
-	}
+	} while (pilihan != 4);
 }
