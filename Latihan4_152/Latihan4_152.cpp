@@ -23,5 +23,19 @@ int main()
 		cout "1. Luas Persegi" << endl;
 		cout "2. Luas Lingkaran" << endl;
 		cout "3. Luas Persegi" << endl;
+		cout "4. exit" << endl;
+		cin >> pilihan
+
+			switch (pilihan)
+			{
+			case 1:
+				cout << "Masukan Panjang = ";
+				cin >> panjang;
+				cout << "Masukan Lebar = ";
+				cin >> lebar;
+				cout << "Luas Persegi Panjang = " << LuasPersegi(panjang, lebar);
+				break;
+
+		}
 	}
 }
