@@ -39,13 +39,14 @@ int main()
 				cout << "Masukan jari - jari = ";
 				cin >> jejari;
 				cout << "Luas Lingkaran =  <<" << Luaslingkaran(jejari);
-				break
+				break;
 			case 3:
 				cout << "Masukan Alas = ";
 				cin >> alas;
 				cout << "Masukan Tinggi = ";
 				cin >> tinggi;
 				cout << "Luas Segitiga = " << LuasSegitiga(alas, tinggi);
+				break;
 			case 4:
 				break;
 			default:
